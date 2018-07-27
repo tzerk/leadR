@@ -35,5 +35,7 @@ vignettes/*.pdf
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
 
-# Custom folders
+# Custom files and folders
+*.Rproj
 dev/
+.Rproj.user
