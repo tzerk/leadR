@@ -1,0 +1,67 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-"
+)
+
+## Examples
+library(leadR)
+``` 
+
+# gammaSpec <a href='https://tzerk.github.io/leadR/'><img src='man/figures/logo.png' align="right" height="138.5" /></a>
+
+<!-- badges: start -->
+[![Build status](https://ci.appveyor.com/api/projects/status/e99p76twnuyk82a7?svg=true)](https://ci.appveyor.com/project/tzerk/leadr)
+[![Build Status](https://travis-ci.org/tzerk/leadR.svg?branch=master)](https://travis-ci.org/tzerk/leadR)
+<!-- badges: end -->
+
+> [Find a full documentation of the package on the project page](https://tzerk.github.io/leadR/)
+
+## Overview
+
+Sediment Deposition and Accumulation Rates Determined by 210Pb Isotope Methods.
+
+## Installation
+
+The ‘leadR’ package is not available on the official CRAN servers.
+
+However, the latest development builds can directly be installed from GitHub. Simply run the following from an R console
+
+```{r, eval = FALSE}
+if(!require("devtools"))
+  install.packages("devtools")
+devtools::install_github("tzerk/leadR")
+```
+
+## Features
+
+Example of the 'Constant Flux Constant Sedimentation Rate' (CF:CS) model ouput:
+
+```{r model}
+# Load example data (synthetic)
+data(Pb)
+str(Pb)
+
+# Apply the model
+results <- calc_SedimentationRate(x = Pb,
+                                  reverse = TRUE,
+                                  fix_a0 = FALSE,
+                                  verbose = TRUE)
+```
+
+## Note
+
+This version is a development version and it comes without any guarentee!
+
+## License
+
+The leadR package is licensed under the MIT. See these files in the main directory for additional details:
+
+* LICENSE - leadR package license (MIT)

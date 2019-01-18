@@ -24,9 +24,10 @@ NULL
 #' @name Pb
 #' @docType data
 #' @format A [`data.frame`] with two with two columns:
+#'
 #' \tabular{ll}{
 #' `$depth` \tab depth below surface (cm) \cr
-#' `$activity` \tab 210Pb activity (Bq/kg) \cr
+#' `$activity` \tab 210Pb activity (Bq/kg)
 #' }
 #'
 #'

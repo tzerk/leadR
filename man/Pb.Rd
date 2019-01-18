@@ -5,9 +5,10 @@
 \alias{Pb}
 \title{Synthetic 210Pb Activity Data}
 \format{A \code{\link{data.frame}} with two with two columns:
+
 \tabular{ll}{
 \code{$depth} \tab depth below surface (cm) \cr
-\code{$activity} \tab 210Pb activity (Bq/kg) \cr
+\code{$activity} \tab 210Pb activity (Bq/kg)
 }}
 \description{
 A synthetic data set of 210Pb activity per units of depth below surface. See
