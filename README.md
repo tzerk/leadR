@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# gammaSpec <a href='https://tzerk.github.io/leadR/'><img src='man/figures/logo.png' align="right" height="138.5" /></a>
+# leadR <a href='https://tzerk.github.io/leadR/'><img src='man/figures/logo.png' align="right" height="138.5" /></a>
 
 <!-- badges: start -->
 
